@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: eth-listener
+
+ethereum:
+  infura:
+    url: "https://mainnet.infura.io/v3/0d0b0635355845b28376d52285dea11c"
+  contract:
+    address: "0x8143182a775c54578c8b7b3ef77982498866945d"
+
+logging:
+  level:
+    root: INFO
+    com.ganten.ethlistener: DEBUG
+
+feishu:
+  url: "https://open.feishu.cn/open-apis/bot/v2/hook/"
+  token: "26b19d24-c0f0-491b-af4e-223fe303fff5"
+
+server:
+  port: 8080

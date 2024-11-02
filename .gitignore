@@ -17,5 +17,5 @@ RUNNING_PID
 .DS_*
 *.pyc
 .redis/
-
+transfer
 *.lock
